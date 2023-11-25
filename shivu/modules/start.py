@@ -40,7 +40,7 @@ async def start(update: Update, context: CallbackContext) -> None:
 ***ɪ Aᴍ Gʀᴀʙ Yᴏᴜʀ Cʜᴀʀᴀᴄᴛᴇʀs Bᴏᴛ Aᴅᴅ Mᴇ ɪɴ Yᴏᴜ'ʀᴇ Gʀᴏᴜᴘ Aɴᴅ I ᴡɪʟʟ sᴇɴᴅ Rᴀɴᴅᴏᴍ Cʜᴀʀᴀᴄᴛᴇʀs ɪɴ ɢʀᴏᴜᴘ ᴀғᴛᴇʀ ᴇᴠᴇʀʏ 𝟷𝟶𝟶 ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴡʜᴏ ɢᴜᴇssᴇᴅ ᴛʜᴀᴛ ᴄʜᴀʀᴀᴄᴛᴇʀ's ɴᴀᴍᴇ Cᴏʀʀᴇᴄᴛ.. I ᴡɪʟʟ ᴀᴅᴅ Tʜᴀᴛ Cʜᴀʀᴀᴄᴛᴇʀ ɪɴ Tʜᴀᴛ ᴜsᴇʀ's Cᴏʟʟᴇᴄᴛɪᴏɴ.. Tᴀᴘ ᴏɴ ʜᴇʟᴘ Bᴜᴛᴛᴏɴ Tᴏ Sᴇᴇ Aʟʟ Cᴏᴍᴍᴀɴᴅs***
                """
         keyboard = [
-            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f'http://t.me/Collect_emAll_Bot?startgroup=new')],
+            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f'http://t.me/Grab_Your_Characters_ixbot?startgroup=new')],
             [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
              InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}')],
             [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f'https://t.me/{UPDATE_CHAT}')],
