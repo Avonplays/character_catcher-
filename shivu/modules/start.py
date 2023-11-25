@@ -37,14 +37,14 @@ async def start(update: Update, context: CallbackContext) -> None:
         caption = f"""
         ***Hey there! {update.effective_user.first_name} 🌻***
               
-***ɪ ᴀᴍ ᴄᴏʟʟᴇᴄᴛ 'ᴇᴍ ᴀʟʟ ʙᴏᴛ.. ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜ'ʀᴇ ɢʀᴏᴜᴘ ᴀɴᴅ ɪ ᴡɪʟʟ sᴇɴᴅ ʀᴀɴᴅᴏᴍ ᴄʜᴀʀᴀᴄᴛᴇʀs ɪɴ ɢʀᴏᴜᴘ ᴀғᴛᴇʀ ᴇᴠᴇʀʏ 100 ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴡʜᴏ ɢᴜᴇssᴇᴅ ᴛʜᴀᴛ ᴄʜᴀʀᴀᴄᴛᴇʀ's ɴᴀᴍᴇ ᴄᴏʀʀᴇᴄᴛ.. ɪ ᴡɪʟʟ ᴀᴅᴅ ᴛʜᴀᴛ ᴄʜᴀʀᴀᴄᴛᴇʀ ɪɴ ᴛʜᴀᴛ ᴜsᴇʀ's ᴄᴏʟʟᴇᴄᴛɪᴏɴ.. ᴛᴀᴘ ᴏɴ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ sᴇᴇ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs***
+***ɪ Aᴍ Gʀᴀʙ Yᴏᴜʀ Cʜᴀʀᴀᴄᴛᴇʀs Bᴏᴛ Aᴅᴅ Mᴇ ɪɴ Yᴏᴜ'ʀᴇ Gʀᴏᴜᴘ Aɴᴅ I ᴡɪʟʟ sᴇɴᴅ Rᴀɴᴅᴏᴍ Cʜᴀʀᴀᴄᴛᴇʀs ɪɴ ɢʀᴏᴜᴘ ᴀғᴛᴇʀ ᴇᴠᴇʀʏ 𝟷𝟶𝟶 ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴡʜᴏ ɢᴜᴇssᴇᴅ ᴛʜᴀᴛ ᴄʜᴀʀᴀᴄᴛᴇʀ's ɴᴀᴍᴇ Cᴏʀʀᴇᴄᴛ.. I ᴡɪʟʟ ᴀᴅᴅ Tʜᴀᴛ Cʜᴀʀᴀᴄᴛᴇʀ ɪɴ Tʜᴀᴛ ᴜsᴇʀ's Cᴏʟʟᴇᴄᴛɪᴏɴ.. Tᴀᴘ ᴏɴ ʜᴇʟᴘ Bᴜᴛᴛᴏɴ Tᴏ Sᴇᴇ Aʟʟ Cᴏᴍᴍᴀɴᴅs***
                """
         keyboard = [
-            [InlineKeyboardButton("Add Me", url=f'http://t.me/Collect_emAll_Bot?startgroup=new')],
-            [InlineKeyboardButton("Help", callback_data='help'),
-             InlineKeyboardButton("Support", url=f'https://t.me/{SUPPORT_CHAT}')],
-            [InlineKeyboardButton("Updates", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("SOURCE", url=f'https://t.me/yumiko_source')],
+            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f'http://t.me/Collect_emAll_Bot?startgroup=new')],
+            [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}')],
+            [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("sᴏᴜʀᴄᴇ", url=f'https://t.me/yumiko_source')],
             
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -56,9 +56,9 @@ async def start(update: Update, context: CallbackContext) -> None:
         photo_url = random.choice(PHOTO_URL)
         keyboard = [
             
-            [InlineKeyboardButton("Help", callback_data='help'),
-             InlineKeyboardButton("Support", url=f'https://t.me/{SUPPORT_CHAT}')],
-            [InlineKeyboardButton("SOURCE", url=f'https://t.me/yumiko_source')],
+            [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}')],
+            [InlineKeyboardButton("sᴏᴜʀᴄᴇ", url=f'https://t.me/yumiko_source')],
             
         ]
         
@@ -93,13 +93,13 @@ async def button(update: Update, context: CallbackContext) -> None:
         caption = f"""
         ***Hey there! {update.effective_user.first_name}*** 🌻
         
-***i Am Collect 'Em All Bot.. Add Me in You're Group And I will send Random Characters in group after every 100 messages and who guessed that character's name Correct.. I will add That Character in That user's Collection.. Tap on help Button To See All Commands***
+***ɪ Aᴍ Gʀᴀʙ Yᴏᴜʀ Cʜᴀʀᴀᴄᴛᴇʀs Bᴏᴛ Aᴅᴅ Mᴇ ɪɴ Yᴏᴜ'ʀᴇ Gʀᴏᴜᴘ Aɴᴅ I ᴡɪʟʟ sᴇɴᴅ Rᴀɴᴅᴏᴍ Cʜᴀʀᴀᴄᴛᴇʀs ɪɴ ɢʀᴏᴜᴘ ᴀғᴛᴇʀ ᴇᴠᴇʀʏ 𝟷𝟶𝟶 ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴡʜᴏ ɢᴜᴇssᴇᴅ ᴛʜᴀᴛ ᴄʜᴀʀᴀᴄᴛᴇʀ's ɴᴀᴍᴇ Cᴏʀʀᴇᴄᴛ.. I ᴡɪʟʟ ᴀᴅᴅ Tʜᴀᴛ Cʜᴀʀᴀᴄᴛᴇʀ ɪɴ Tʜᴀᴛ ᴜsᴇʀ's Cᴏʟʟᴇᴄᴛɪᴏɴ.. Tᴀᴘ ᴏɴ ʜᴇʟᴘ Bᴜᴛᴛᴏɴ Tᴏ Sᴇᴇ Aʟʟ Cᴏᴍᴍᴀɴᴅs***
         """
         keyboard = [
-            [InlineKeyboardButton("Add Me", url=f'http://t.me/Collect_emAll_Bot?startgroup=new')],
-            [InlineKeyboardButton("Help", callback_data='help'),
-             InlineKeyboardButton("Support", url=f'https://t.me/{SUPPORT_CHAT}')],
-            [InlineKeyboardButton("Updates", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f'http://t.me/Collect_emAll_Bot?startgroup=new')],
+            [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}')],
+            [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f'https://t.me/{UPDATE_CHAT}')],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         
