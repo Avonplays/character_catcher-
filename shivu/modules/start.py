@@ -58,7 +58,7 @@ async def start(update: Update, context: CallbackContext) -> None:
             
             [InlineKeyboardButton("Help", callback_data='help'),
              InlineKeyboardButton("Support", url=f'https://t.me/{SUPPORT_CHAT}')],
-            [InlineKeyboardButton("SOURCE", url=f'https://github.com/MyNameIsShekhar/character_catcher-')],
+            [InlineKeyboardButton("SOURCE", url=f'https://t.me/yumiko_source')],
             
         ]
         
